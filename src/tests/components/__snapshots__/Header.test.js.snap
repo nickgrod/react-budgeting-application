@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render the header correctly 1`] = `
+<header>
+  <h1>
+    Budget App
+  </h1>
+  <NavLink
+    activeClassName="onPage"
+    exact={true}
+    to="/"
+  >
+    Go Home
+  </NavLink>
+  <NavLink
+    activeClassName="onPage"
+    exact={true}
+    to="/create"
+  >
+    Create Page
+  </NavLink>
+</header>
+`;
